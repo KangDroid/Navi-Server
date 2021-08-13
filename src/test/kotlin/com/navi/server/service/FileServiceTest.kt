@@ -445,6 +445,7 @@ class FileServiceTest {
 
     @Test
     fun isGettingSHA256WorksWell() {
+        fail("INIT did not proceeded, but somehow it succeed?")
         val targetPlainText: String = "TestingKDR"
         val hashedString: String = fileService.getSHA256(targetPlainText)
 
